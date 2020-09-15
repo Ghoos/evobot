@@ -8,8 +8,8 @@ module.exports = {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
-      .setTitle("Evobot Help")
-      .setDescription("List of all commands")
+      .setTitle("RyzenS Help")
+      .setDescription("Lista de todos comandos")
       .setColor("#F8AA2A");
 
     commands.forEach((cmd) => {
